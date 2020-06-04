@@ -1,0 +1,227 @@
+.list {
+	color: black;
+	font-family: monospace, monospace;
+	margin: 10px 15px;
+	box-sizing: border-box;
+	padding: 20px 30px;
+}
+
+.list>a {
+	text-decoration: none;
+	color: rgba(12, 10, 10, 0.589);
+}
+
+.list>a:hover {
+	text-decoration: underline;
+}
+
+.list>a:visited {
+	color: rgba(12, 10, 10, 0.589);
+}
+
+.list1 {
+	list-style-type: none;
+	border-bottom: 1px solid #dddddd;
+}
+
+.subj {
+	position: absolute;
+	top: 0;
+	z-index : 30;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+.subjbox {
+	margin: 0 auto;
+	width: 400px;
+	height: 48px;
+}
+
+h1 {
+ 	background: -moz-linear-gradient(left, #1fae83 45%, #ff2f6e 55%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, #1fae83 45%,#ff2f6e 55%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1fae83 45%,#ff2f6e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fae83', endColorstr='#ff2f6e',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8em;
+	font-weight: bold;
+	padding: 0;
+	margin: 15px auto;
+}
+h2{
+	margin : 10px auto;
+	text-align : center;
+}
+h3{
+	float : left;
+}
+
+.box {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 51;
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	height: 72px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 0 0 0 #D2D2D2;
+	-webkit-transition: background-color 200ms;
+	transition: background-color 200ms;
+}
+
+.pan0 {
+	text-align: center;
+}
+
+.pan1 {
+	margin: 0 20px;
+}
+
+.pan2 {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.logo {
+	float : left;
+	margin: 23px 0px 0px 15px;
+	display: block;
+	width: 98px;
+	height: 30px;
+	background: URL(images/logo.png) center center/contain no-repeat;
+}
+
+.my {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	float: right;
+	height: 74px;
+	margin: 0 0 0 20px;
+}
+
+.my>a {
+	text-decoration: none;
+}
+
+.userpicbox {
+	display: block;
+	border: solid 1px rgba(0, 0, 0, 0.08);
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 56px;
+	height: 56px;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+
+.userpic {
+	position: absolute;
+	z-index: 1;
+	background: url(images/user.png) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.midheader {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background: #fff;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-weight: 700;
+	-webkit-letter-spacing: -0.5px;
+	-moz-letter-spacing: -0.5px;
+	-ms-letter-spacing: -0.5px;
+	letter-spacing: -0.5px;
+	line-height: 22px;
+	width: 100%;
+	height: auto;
+	padding: 0 16px;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: left;
+	height: auto;
+	display:block;
+	padding-top:50px;
+}
+.midheader1{
+	width : 100%;
+	height : 30px;
+}
+  table {
+  
+    margin: 10px auto;
+    width: 90%;
+    border-top: 1px solid #a2a2a2;
+    border-collapse: collapse;
+    font-weight : 400;
+  }
+  th, td {
+    border-bottom: 1px solid #a2a2a2;
+    padding: 10px;
+    text-align: center;
+  }
+ 
+  .pagenum{
+  	text-align : center;
+  }
+.pagebox {
+	display: relative;
+	margin: 0 auto;
+    width:100%;
+}
+
+.footerbox {
+	margin-bottom:10px;
+	position:relative;
+    bottom:0;
+    z-index:51;
+    background:#fff;
+    box-sizing:border-box;
+    width:100%;
+    border-top:1px solid #d2d2d2;
+    justify-content:center;
+    display:flex;
+}
+.searchbox{
+	left:0;
+	margin:0 auto;
+	margin-left:42%;
+}
+.updatebt{
+	display: absolute;
+	right:20px;
+}
+  

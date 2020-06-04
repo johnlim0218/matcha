@@ -1,0 +1,84 @@
+*{
+    font-family: "Noto Sans KR", sans-serif;
+}
+body{
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: rgb(120, 120, 120);
+}
+a:hover {
+	text-decoration: underline;
+}
+    body {
+        align-content: center;
+        text-align: center;
+        background: #ffffff;
+        font-size : 1em;
+    }
+    .board_container {
+        margin: 50px auto;
+        border-radius: 6px;
+        border : 1px solid rgba(240, 240, 240, 1);
+        width: 1024px;
+        background: #ffffff;
+    }
+    h2 {
+        background: -moz-linear-gradient(left, #1fae83 45%, #ff2f6e 55%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(right, #1fae83 45%,#ff2f6e 55%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #1fae83 45%,#ff2f6e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fae83', endColorstr='#ff2f6e',GradientType=0 ); /* IE6-9 */
+        text-align: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.8em;
+    }
+    table {
+        width: 100%;
+    }
+    table td {
+        color: rgb(120, 120, 120);
+        font-weight: 800;
+    }
+    .content table td {
+    	color: rgb(150, 150, 150);
+    	font-weight: 400;
+    }        
+    hr {
+        border: 0px;
+        border-bottom : 1px solid #f0f0f0;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 5px;
+    }
+    @media (max-width: 719px) {
+    	.board_container {
+    		width: 640px;
+    	}
+    }
+#board_list_write_button {
+    	float: right;
+    	display: block;
+    	position: relative;
+    	right: 25px;
+    	padding: 10px 10px;
+    	background: #1fae83;
+    	border-radius: 6px;
+    	margin-top: 10px;
+    }
+#board_list_write_button a{
+	text-decoration:none;
+	color: #ffffff;
+	font-weight: 900;
+}
+.footer_pages {
+	text-align:center;
+	margin: 15px;
+	padding: 15px;
+}
+.content {
+	padding-bottom: 45px;
+}

@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+.aa {
+    position: relative;
+    left: 1px;
+    top: -1px;              /* .box text value값 왼쪽 정렬 */
+}
+.container {
+  display: flex;
+  flex-direction: column;  
+}
+
+.profile_name {
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+#box-container{ 
+    position: relative; 
+    height: 600px; 
+    width: 1024px;
+    margin-top: 40px; 
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.box {
+    position: relative;
+    float: right;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin: 5px;
+    background: #edf0ef;
+    border-radius: 6px;
+    color: #868686;
+    text-align: left;
+    top: -125px;
+    right: 200px;
+    width: 300px;
+    display: block;
+    clear: both;
+}
+
+.box input {
+    background: transparent;
+    border: 0px;
+    width: 100%;
+    font-size: 80%;
+}
+.box5 input {
+    font-size: 90%;
+}
+.box5 {
+    position: relative;
+    float: right;
+    font-size: 1.2em;
+    padding: 10px 60px;
+    margin: 5px;
+    background: #2bb385;
+    border-radius: 6px;
+    color: #ffffff;
+    text-align: center;
+    top: -125px;
+    right: 200px;
+    width: 200px;
+    display: block;
+    clear: both;
+}
+/*
+.box5 {
+    position: relative;
+    float: right;
+    font-size: 1.2em;
+    padding: 10px 65px;
+    margin: 5px;
+    background: #2bb385;
+    border-radius: 6px;
+    color:  #ffffff;
+    position: relative;
+    top : -65px;
+    left : 131px;
+    
+}
+*/
+
+.main_container {
+    border-radius: 6px;
+    border-style:dotted;
+}
+
+.profile_button {
+    background: transparent;
+    border: 0px;
+    color: #ffffff;
+    vertical-align: center;
+    font-weight: 900;
+    font-size: 
+} 
